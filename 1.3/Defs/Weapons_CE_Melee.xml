@@ -501,15 +501,14 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <techLevel>Ultra</techLevel>
-    <generateAllowChance>0.1</generateAllowChance>
-    <generateCommonality>0.1</generateCommonality>
     <statBases>
       <Mass>1</Mass>
       <Bulk>8</Bulk>
       <MeleeCounterParryBonus>1.6</MeleeCounterParryBonus>
-      <MarketValue>3000</MarketValue>
+      <MarketValue>7000</MarketValue>
     </statBases>
     <equippedAngleOffset>-45</equippedAngleOffset>
+    <weaponTags inherit="false" />
     <tools>
       <li Class="CombatExtended.ToolCE">
         <label>handle</label>
