@@ -19,6 +19,7 @@
       <Beauty>-3</Beauty>
       <SellPriceFactor>0.20</SellPriceFactor>
     </statBases>
+    <relicChance>1</relicChance>
     <comps>
       <li Class="CompProperties_Forbiddable"/>
       <li>
@@ -32,6 +33,7 @@
         <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
         <minQualityForArtistic>Excellent</minQualityForArtistic>
       </li>
+      <li Class="CompProperties_Styleable"></li>
     </comps>
     <graphicData>
       <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
