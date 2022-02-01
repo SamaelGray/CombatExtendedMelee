@@ -236,8 +236,8 @@
   
   <ThingDef ParentName="MeleeWeaponMakeable_CE">
     <defName>MeleeWeapon_Glaive</defName>
-    <label>glaive</label>
-    <description>A medieval, bladed polearm. Aside from cutting and thrusting, it features a hook for binding enemy weapons.</description>
+    <label>halberd</label>
+    <description>A medieval, bladed polearm, suited for chopping and thrusting, with a hook for binding enemy weapons.</description>
     <graphicData>
       <texPath>Things/Weapons/Glaive</texPath>
       <graphicClass>Graphic_Single</graphicClass>
