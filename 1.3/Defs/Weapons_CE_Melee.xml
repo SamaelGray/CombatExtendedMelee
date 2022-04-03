@@ -111,6 +111,7 @@
     <graphicData>
       <texPath>Things/Weapons/Maul</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <techLevel>Medieval</techLevel>
     <weaponTags>
@@ -170,6 +171,7 @@
     <graphicData>
       <texPath>Things/Weapons/Zweihander</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <techLevel>Medieval</techLevel>
     <weaponTags>
@@ -253,6 +255,7 @@
     <graphicData>
       <texPath>Things/Weapons/Halberd</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <techLevel>Medieval</techLevel>
     <weaponTags>
