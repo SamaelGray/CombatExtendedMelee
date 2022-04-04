@@ -102,7 +102,7 @@
   <!-- ==================== Maul ==================== -->
 
   <ThingDef ParentName="MeleeWeaponMakeable_CE">
-    <defName>MeleeWeapon_Maul</defName>
+    <defName>CE_Melee_Maul</defName>
     <label>maul</label>
     <description>A heavy, two-handed hammer. Difficult to wield, but the heavy impact allows it to injure people behind armor.</description>
     <weaponClasses>
@@ -162,7 +162,7 @@
   <!-- ==================== Zweihander ==================== -->
   
   <ThingDef ParentName="MeleeWeaponMakeable_CE">
-    <defName>MeleeWeapon_Zweihander</defName>
+    <defName>CE_Melee_Zweihander</defName>
     <label>zweihander</label>
     <description>A large sword designed for two-handed use. Unwieldy for a sword, but one blow can cut a man in half.</description>
     <weaponClasses>
@@ -246,7 +246,7 @@
   <!-- ==================== Halberd ==================== -->
   
   <ThingDef ParentName="MeleeWeaponMakeable_CE">
-    <defName>MeleeWeapon_Halberd</defName>
+    <defName>CE_Melee_Halberd</defName>
     <label>halberd</label>
     <description>A medieval, bladed polearm, suited for chopping and thrusting, with a hook for binding enemy weapons.</description>
     <weaponClasses>
