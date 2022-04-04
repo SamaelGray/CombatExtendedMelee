@@ -10,5 +10,5 @@
     </loadAfter>
     <showCrossPromotions>true</showCrossPromotions>
     <manifestUri>https://github.com/CombatExtended-Continued/CombatExtendedMelee/blob/master/About/Manifest.xml</manifestUri>
-    <downloadUri>https://github.com/CombatExtended-Continued/CombatExtendedMelee/releases/latest</downloadUri>
+    <downloadUri>https://github.com/CombatExtended-Continued/CombatExtendedMelee</downloadUri>
 </Manifest>
