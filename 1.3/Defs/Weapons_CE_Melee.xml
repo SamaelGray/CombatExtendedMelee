@@ -19,7 +19,7 @@
       <Beauty>-3</Beauty>
       <SellPriceFactor>0.20</SellPriceFactor>
     </statBases>
-    <relicChance>1</relicChance>
+    <relicChance>2</relicChance>
     <comps>
       <li Class="CompProperties_Forbiddable"/>
       <li>
@@ -151,6 +151,9 @@
         <Crafting>4</Crafting>
       </skillRequirements>
     </recipeMaker>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
         <DrawSize>1.25,1.10</DrawSize>
@@ -235,6 +238,9 @@
       <MeleeParryChance>0.5</MeleeParryChance>
       <MeleeDodgeChance>0.5</MeleeDodgeChance>
     </equippedStatOffsets>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
         <DrawSize>1.28,1.28</DrawSize>
@@ -319,6 +325,9 @@
       <MeleeParryChance>1.53</MeleeParryChance>
       <MeleeDodgeChance>0.67</MeleeDodgeChance>
     </equippedStatOffsets>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
         <DrawSize>1.6,1.5</DrawSize>
@@ -382,6 +391,9 @@
       <MeleeParryChance>0.23</MeleeParryChance>
       <MeleeDodgeChance>0.2</MeleeDodgeChance>
     </equippedStatOffsets>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
         <DrawSize>1.10,1.10</DrawSize>
@@ -458,6 +470,9 @@
       <MeleeParryChance>0.46</MeleeParryChance>
       <MeleeDodgeChance>0.2</MeleeDodgeChance>
     </equippedStatOffsets>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
         <DrawSize>1.10,1.10</DrawSize>
@@ -508,6 +523,9 @@
       <MeleeParryChance>0.34</MeleeParryChance>
       <MeleeDodgeChance>0.3</MeleeDodgeChance>
     </equippedStatOffsets>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
         <DrawSize>1.30,1.20</DrawSize>
@@ -581,6 +599,7 @@
     </equippedStatOffsets>
     <thingSetMakerTags>
       <li>RewardStandardLowFreq</li>
+      <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
