@@ -19,7 +19,7 @@
       <Beauty>-3</Beauty>
       <SellPriceFactor>0.20</SellPriceFactor>
     </statBases>
-    <relicChance>1</relicChance>
+    <relicChance>2</relicChance>
     <comps>
       <li Class="CompProperties_Forbiddable"/>
       <li>
@@ -50,13 +50,6 @@
       <li>ITab_Art</li>
     </inspectorTabs>
   </ThingDef>
-
-  <!--<ThingDef Name="PoweredMeleeWeapon_CE" ParentName="BaseMeleeWeapon_CE" Abstract="True">
-    <techLevel>Spacer</techLevel>
-    <weaponTags>
-      <li>SpacerGun</li>
-    </weaponTags>
-  </ThingDef>-->
 
   <ThingDef Name="MeleeWeaponMakeable_CE" ParentName="BaseMeleeWeapon_CE" Abstract="True">
     <recipeMaker>
@@ -151,6 +144,9 @@
         <Crafting>4</Crafting>
       </skillRequirements>
     </recipeMaker>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
         <DrawSize>1.25,1.10</DrawSize>
@@ -235,6 +231,9 @@
       <MeleeParryChance>0.5</MeleeParryChance>
       <MeleeDodgeChance>0.5</MeleeDodgeChance>
     </equippedStatOffsets>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
         <DrawSize>1.28,1.28</DrawSize>
@@ -319,6 +318,9 @@
       <MeleeParryChance>1.53</MeleeParryChance>
       <MeleeDodgeChance>0.67</MeleeDodgeChance>
     </equippedStatOffsets>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
         <DrawSize>1.6,1.5</DrawSize>
@@ -382,6 +384,9 @@
       <MeleeParryChance>0.23</MeleeParryChance>
       <MeleeDodgeChance>0.2</MeleeDodgeChance>
     </equippedStatOffsets>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
         <DrawSize>1.10,1.10</DrawSize>
@@ -458,6 +463,9 @@
       <MeleeParryChance>0.46</MeleeParryChance>
       <MeleeDodgeChance>0.2</MeleeDodgeChance>
     </equippedStatOffsets>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
         <DrawSize>1.10,1.10</DrawSize>
@@ -508,6 +516,9 @@
       <MeleeParryChance>0.34</MeleeParryChance>
       <MeleeDodgeChance>0.3</MeleeDodgeChance>
     </equippedStatOffsets>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
         <DrawSize>1.30,1.20</DrawSize>
@@ -530,12 +541,13 @@
       <texPath>Things/Weapons/WraithBlade</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <tradeability>Sellable</tradeability>
     <techLevel>Ultra</techLevel>
     <statBases>
       <Mass>1</Mass>
       <Bulk>8</Bulk>
       <MeleeCounterParryBonus>1.6</MeleeCounterParryBonus>
-      <MarketValue>7000</MarketValue>
+      <MarketValue>4000</MarketValue>
     </statBases>
     <equippedAngleOffset>-45</equippedAngleOffset>
     <weaponTags inherit="false" />
