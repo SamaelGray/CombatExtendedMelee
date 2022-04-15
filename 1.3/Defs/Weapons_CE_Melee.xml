@@ -51,13 +51,6 @@
     </inspectorTabs>
   </ThingDef>
 
-  <!--<ThingDef Name="PoweredMeleeWeapon_CE" ParentName="BaseMeleeWeapon_CE" Abstract="True">
-    <techLevel>Spacer</techLevel>
-    <weaponTags>
-      <li>SpacerGun</li>
-    </weaponTags>
-  </ThingDef>-->
-
   <ThingDef Name="MeleeWeaponMakeable_CE" ParentName="BaseMeleeWeapon_CE" Abstract="True">
     <recipeMaker>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -548,12 +541,13 @@
       <texPath>Things/Weapons/WraithBlade</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <tradeability>Sellable</tradeability>
     <techLevel>Ultra</techLevel>
     <statBases>
       <Mass>1</Mass>
       <Bulk>8</Bulk>
       <MeleeCounterParryBonus>1.6</MeleeCounterParryBonus>
-      <MarketValue>7000</MarketValue>
+      <MarketValue>4000</MarketValue>
     </statBases>
     <equippedAngleOffset>-45</equippedAngleOffset>
     <weaponTags inherit="false" />
@@ -599,7 +593,6 @@
     </equippedStatOffsets>
     <thingSetMakerTags>
       <li>RewardStandardLowFreq</li>
-      <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
