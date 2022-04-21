@@ -544,7 +544,7 @@
     <tradeability>Sellable</tradeability>
     <techLevel>Ultra</techLevel>
     <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
+      <MaxHitPoints>200</MaxHitPoints>
       <Mass>1</Mass>
       <Bulk>8</Bulk>
       <MeleeCounterParryBonus>1.6</MeleeCounterParryBonus>
