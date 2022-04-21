@@ -119,7 +119,7 @@
     </statBases>
     <equippedAngleOffset>-25</equippedAngleOffset>
     <stuffCategories>
-      <li>Metallic</li>
+      <li>Metallic_Weapon</li>
       <li>Woody</li>
     </stuffCategories>
     <tools>
@@ -182,7 +182,7 @@
     </statBases>
     <equippedAngleOffset>-45</equippedAngleOffset>
     <stuffCategories>
-      <li>Metallic</li>
+      <li>Metallic_Weapon</li>
     </stuffCategories>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -269,7 +269,7 @@
     </statBases>
     <equippedAngleOffset>-25</equippedAngleOffset>
     <stuffCategories>
-      <li>Metallic</li>
+      <li>Metallic_Weapon</li>
     </stuffCategories>
     <tools>
       <li Class="CombatExtended.ToolCE">
