@@ -544,10 +544,12 @@
     <tradeability>Sellable</tradeability>
     <techLevel>Ultra</techLevel>
     <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
       <Mass>1</Mass>
       <Bulk>8</Bulk>
       <MeleeCounterParryBonus>1.6</MeleeCounterParryBonus>
       <MarketValue>4000</MarketValue>
+      <ToughnessRating>50</ToughnessRating>
     </statBases>
     <equippedAngleOffset>-45</equippedAngleOffset>
     <weaponTags inherit="false" />
