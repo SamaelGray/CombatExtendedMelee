@@ -548,6 +548,7 @@
       <Bulk>8</Bulk>
       <MeleeCounterParryBonus>1.6</MeleeCounterParryBonus>
       <MarketValue>4000</MarketValue>
+      <ToughnessRating>50</ToughnessRating>
     </statBases>
     <equippedAngleOffset>-45</equippedAngleOffset>
     <weaponTags inherit="false" />
