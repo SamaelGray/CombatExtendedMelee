@@ -104,7 +104,7 @@
     <graphicData>
       <texPath>Things/Weapons/Maul</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-	  <shaderType>CutoutComplex</shaderType>
+      <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <techLevel>Medieval</techLevel>
     <weaponTags>
@@ -140,8 +140,9 @@
       <MeleeDodgeChance>0.3</MeleeDodgeChance>
     </equippedStatOffsets>
     <recipeMaker>
+      <researchPrerequisite>LongBlades</researchPrerequisite>
       <skillRequirements>
-        <Crafting>4</Crafting>
+        <Crafting>6</Crafting>
       </skillRequirements>
     </recipeMaker>
     <thingSetMakerTags>
@@ -167,7 +168,7 @@
     <graphicData>
       <texPath>Things/Weapons/Zweihander</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-	  <shaderType>CutoutComplex</shaderType>
+      <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <techLevel>Medieval</techLevel>
     <weaponTags>
@@ -254,7 +255,7 @@
     <graphicData>
       <texPath>Things/Weapons/Halberd</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-	  <shaderType>CutoutComplex</shaderType>
+      <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <techLevel>Medieval</techLevel>
     <weaponTags>
@@ -310,7 +311,7 @@
     <recipeMaker>
       <researchPrerequisite>LongBlades</researchPrerequisite>
       <skillRequirements>
-        <Crafting>5</Crafting>
+        <Crafting>6</Crafting>
       </skillRequirements>
     </recipeMaker>
     <equippedStatOffsets>
