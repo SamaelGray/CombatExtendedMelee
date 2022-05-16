@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
+  <ThingDef ParentName="UnfinishedBase">
+    <defName>UnfinishedPoweredMeleeWeapon</defName>
+    <label>unfinished powered melee weapon</label>
+    <description>An unfinished powered melee weapon.</description>
+    <graphicData>
+      <texPath>Things/Item/Unfinished/UnfinishedWeapon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stuffCategories Inherit="false" />
+  </ThingDef>
+
   <ThingDef Name="BaseMeleeWeapon_CE" Abstract="True">
     <thingClass>ThingWithComps</thingClass>
     <category>Item</category>
@@ -83,6 +94,7 @@
     </weaponTags>
     <recipeMaker>
       <researchPrerequisite>CE_PoweredMelee</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedPoweredMeleeWeapon</unfinishedThingDef>
       <recipeUsers Inherit="false">
         <li>FabricationBench</li>
       </recipeUsers>
