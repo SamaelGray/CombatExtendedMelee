@@ -136,6 +136,17 @@
     </stuffCategories>
     <tools>
       <li Class="CombatExtended.ToolCE">
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>1.8</cooldownTime>
+        <chanceFactor>0.10</chanceFactor>
+        <armorPenetrationBlunt>1.25</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+      </li>
+      <li Class="CombatExtended.ToolCE">
         <label>head</label>
         <capacities>
           <li>Blunt</li>
@@ -513,6 +524,17 @@
       <ComponentSpacer>2</ComponentSpacer>
     </costList>
     <tools>
+      <li Class="CombatExtended.ToolCE">
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.85</cooldownTime>
+        <chanceFactor>0.10</chanceFactor>
+        <armorPenetrationBlunt>1.5</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+      </li>
       <li Class="CombatExtended.ToolCE">
         <label>head</label>
         <capacities>
