@@ -20,7 +20,6 @@
     <label>slasher boss</label>
     <labelPlural>slasher bosses</labelPlural>
     <factionLeader>true</factionLeader>
-    <baseRecruitDifficulty>0.90</baseRecruitDifficulty>
     <inventoryOptions>
       <skipChance>0.8</skipChance>
       <subOptionsChooseOne>
