@@ -63,6 +63,9 @@
   </ThingDef>
 
   <ThingDef Name="MeleeWeaponMakeable_CE" ParentName="BaseMeleeWeapon_CE" Abstract="True">
+    <tradeTags>
+      <li>WeaponMelee</li>
+    </tradeTags>
     <recipeMaker>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
@@ -110,6 +113,7 @@
     <defName>CE_Melee_Maul</defName>
     <label>maul</label>
     <description>A heavy, two-handed hammer. Difficult to wield, but the heavy impact allows it to injure people behind armor.</description>
+    <possessionCount>1</possessionCount>
     <weaponClasses>
       <li>MeleeBlunt</li>
     </weaponClasses>
@@ -185,6 +189,7 @@
     <defName>CE_Melee_Zweihander</defName>
     <label>zweihander</label>
     <description>A large sword designed for two-handed use. Unwieldy for a sword, but one blow can cut a man in half.</description>
+    <possessionCount>1</possessionCount>
     <weaponClasses>
       <li>MeleePiercer</li>
     </weaponClasses>
@@ -272,6 +277,7 @@
     <defName>CE_Melee_Halberd</defName>
     <label>halberd</label>
     <description>A medieval, bladed polearm, suited for chopping and thrusting, with a hook for binding enemy weapons.</description>
+    <possessionCount>1</possessionCount>
     <weaponClasses>
       <li>MeleePiercer</li>
     </weaponClasses>
