@@ -584,6 +584,7 @@
     </graphicData>
     <tradeability>Sellable</tradeability>
     <techLevel>Ultra</techLevel>
+    <smeltable>false</smeltable>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
       <Mass>1</Mass>
