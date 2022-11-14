@@ -147,8 +147,8 @@
           <li>Poke</li>
         </capacities>
         <power>5</power>
-        <cooldownTime>1.8</cooldownTime>
         <chanceFactor>0.33</chanceFactor>
+        <cooldownTime>1.8</cooldownTime>
         <armorPenetrationBlunt>1.25</armorPenetrationBlunt>
         <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
       </li>
@@ -537,8 +537,8 @@
           <li>Poke</li>
         </capacities>
         <power>6</power>
-        <cooldownTime>1.85</cooldownTime>
         <chanceFactor>0.33</chanceFactor>
+        <cooldownTime>1.85</cooldownTime>
         <armorPenetrationBlunt>1.5</armorPenetrationBlunt>
         <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
       </li>
@@ -606,7 +606,7 @@
           <li>Blunt</li>
         </capacities>
         <power>3</power>
-        <chanceFactor>0.33</chanceFactor>
+        <chanceFactor>0.1</chanceFactor>
         <cooldownTime>1.25</cooldownTime>
         <armorPenetrationBlunt>0.72</armorPenetrationBlunt>
         <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
