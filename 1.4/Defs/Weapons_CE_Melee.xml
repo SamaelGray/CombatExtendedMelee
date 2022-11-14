@@ -15,13 +15,14 @@
   <ThingDef Name="BaseMeleeWeapon_CE" Abstract="True">
     <thingClass>ThingWithComps</thingClass>
     <category>Item</category>
+    <drawerType>MapMeshOnly</drawerType>
     <drawGUIOverlay>true</drawGUIOverlay>
     <altitudeLayer>Item</altitudeLayer>
     <alwaysHaulable>true</alwaysHaulable>
     <tickerType>Never</tickerType>
     <equipmentType>Primary</equipmentType>
     <useHitPoints>true</useHitPoints>
-    <pathCost>10</pathCost>
+    <pathCost>14</pathCost>
     <selectable>true</selectable>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
@@ -60,6 +61,7 @@
     <inspectorTabs>
       <li>ITab_Art</li>
     </inspectorTabs>
+    <allowedArchonexusCount>1</allowedArchonexusCount>
   </ThingDef>
 
   <ThingDef Name="MeleeWeaponMakeable_CE" ParentName="BaseMeleeWeapon_CE" Abstract="True">
@@ -570,11 +572,12 @@
 
   <!-- ==================== Wraith blade ==================== -->
 
-  <ThingDef ParentName="BaseMeleeWeapon_CE">
+  <ThingDef ParentName="BaseWeapon">
     <defName>CE_Melee_WraithBlade</defName>
     <label>wraith blade</label>
     <description>Highly advanced melee weapon. When active it emits a constant stream of ionized plasma that can cut through almost any armor. It's otherworldly appearance earned it the moniker and inspired many folktales.</description>
     <weaponClasses>
+      <li>Melee</li>
       <li>Ultratech</li>
       <li>MeleePiercer</li>
     </weaponClasses>
@@ -585,14 +588,20 @@
     <tradeability>Sellable</tradeability>
     <techLevel>Ultra</techLevel>
     <smeltable>false</smeltable>
+    <thingCategories>
+      <li>WeaponsMelee</li>
+    </thingCategories>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
+      <Flammability>0.5</Flammability>
+      <DeteriorationRate>1</DeteriorationRate>
       <Mass>1</Mass>
       <Bulk>8</Bulk>
       <MeleeCounterParryBonus>1.6</MeleeCounterParryBonus>
-      <MarketValue>4000</MarketValue>
+      <MarketValue>5000</MarketValue>
       <ToughnessRating>50</ToughnessRating>
     </statBases>
+    <relicChance>1</relicChance>
     <equippedAngleOffset>-45</equippedAngleOffset>
     <weaponTags inherit="false" />
     <tools>
