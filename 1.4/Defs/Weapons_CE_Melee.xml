@@ -572,12 +572,11 @@
 
   <!-- ==================== Wraith blade ==================== -->
 
-  <ThingDef ParentName="BaseWeapon">
+  <ThingDef ParentName="BaseMeleeWeapon_CE">
     <defName>CE_Melee_WraithBlade</defName>
     <label>wraith blade</label>
     <description>Highly advanced melee weapon. When active it emits a constant stream of ionized plasma that can cut through almost any armor. It's otherworldly appearance earned it the moniker and inspired many folktales.</description>
     <weaponClasses>
-      <li>Melee</li>
       <li>Ultratech</li>
       <li>MeleePiercer</li>
     </weaponClasses>
@@ -585,12 +584,7 @@
       <texPath>Things/Weapons/WraithBlade</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <tradeability>Sellable</tradeability>
     <techLevel>Ultra</techLevel>
-    <smeltable>false</smeltable>
-    <thingCategories>
-      <li>WeaponsMelee</li>
-    </thingCategories>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
       <Flammability>0.5</Flammability>
@@ -598,22 +592,24 @@
       <Mass>1</Mass>
       <Bulk>8</Bulk>
       <MeleeCounterParryBonus>1.6</MeleeCounterParryBonus>
-      <MarketValue>5000</MarketValue>
+      <MarketValue>2500</MarketValue>
       <ToughnessRating>50</ToughnessRating>
     </statBases>
     <relicChance>1</relicChance>
     <equippedAngleOffset>-45</equippedAngleOffset>
-    <weaponTags inherit="false" />
+    <weaponTags>
+      <li>UltratechMelee</li>
+    </weaponTags>
     <tools>
       <li Class="CombatExtended.ToolCE">
         <label>handle</label>
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>2</power>
-        <chanceFactor>0.33</chanceFactor>
-        <cooldownTime>1.52</cooldownTime>
-        <armorPenetrationBlunt>0.500</armorPenetrationBlunt>
+        <power>3</power>
+        <chanceFactor>0.1</chanceFactor>
+        <cooldownTime>1.25</cooldownTime>
+        <armorPenetrationBlunt>0.72</armorPenetrationBlunt>
         <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
       </li>
       <li Class="CombatExtended.ToolCE">
@@ -621,10 +617,10 @@
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>18</power>
-        <cooldownTime>1</cooldownTime>
-        <armorPenetrationBlunt>11.250</armorPenetrationBlunt>
-        <armorPenetrationSharp>90</armorPenetrationSharp>
+        <power>19</power>
+        <cooldownTime>0.75</cooldownTime>
+        <armorPenetrationBlunt>2</armorPenetrationBlunt>
+        <armorPenetrationSharp>40</armorPenetrationSharp>
         <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
       </li>
       <li Class="CombatExtended.ToolCE">
@@ -632,15 +628,15 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>46</power>
-        <cooldownTime>0.5</cooldownTime>
-        <armorPenetrationBlunt>45</armorPenetrationBlunt>
-        <armorPenetrationSharp>80</armorPenetrationSharp>
+        <power>55</power>
+        <cooldownTime>0.77</cooldownTime>
+        <armorPenetrationBlunt>6.75</armorPenetrationBlunt>
+        <armorPenetrationSharp>45</armorPenetrationSharp>
         <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
       </li>
     </tools>
     <equippedStatOffsets>
-      <MeleeCritChance>4</MeleeCritChance>
+      <MeleeCritChance>1.33</MeleeCritChance>
       <MeleeParryChance>1.2</MeleeParryChance>
       <MeleeDodgeChance>0.4</MeleeDodgeChance>
     </equippedStatOffsets>
