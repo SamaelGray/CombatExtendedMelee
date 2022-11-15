@@ -575,6 +575,7 @@
     <defName>CE_Melee_WraithBlade</defName>
     <label>wraith blade</label>
     <description>Highly advanced melee weapon. When active it emits a constant stream of ionized plasma that can cut through almost any armor. It's otherworldly appearance earned it the moniker and inspired many folktales.</description>
+    <smeltable>false</smeltable>
     <weaponClasses>
       <li>Ultratech</li>
       <li>MeleePiercer</li>
