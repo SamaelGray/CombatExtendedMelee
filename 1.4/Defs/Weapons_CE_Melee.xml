@@ -61,13 +61,13 @@
     <inspectorTabs>
       <li>ITab_Art</li>
     </inspectorTabs>
+    <tradeTags>
+      <li>WeaponMelee</li>
+    </tradeTags>
     <allowedArchonexusCount>1</allowedArchonexusCount>
   </ThingDef>
 
   <ThingDef Name="MeleeWeaponMakeable_CE" ParentName="BaseMeleeWeapon_CE" Abstract="True">
-    <tradeTags>
-      <li>WeaponMelee</li>
-    </tradeTags>
     <recipeMaker>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
