@@ -592,7 +592,7 @@
       <Mass>1</Mass>
       <Bulk>8</Bulk>
       <MeleeCounterParryBonus>1.6</MeleeCounterParryBonus>
-      <MarketValue>2500</MarketValue>
+      <MarketValue>3000</MarketValue>
       <ToughnessRating>50</ToughnessRating>
     </statBases>
     <relicChance>1</relicChance>
