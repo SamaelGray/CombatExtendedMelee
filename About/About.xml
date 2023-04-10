@@ -20,6 +20,6 @@
 		</li>
 	</modDependencies>
 	<loadAfter>
-        <li>CETeam.CombatExtended</li>
+		<li>CETeam.CombatExtended</li>
 	</loadAfter>
 </ModMetaData>

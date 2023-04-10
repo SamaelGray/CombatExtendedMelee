@@ -592,7 +592,7 @@
       <Mass>1</Mass>
       <Bulk>8</Bulk>
       <MeleeCounterParryBonus>1.6</MeleeCounterParryBonus>
-      <MarketValue>2500</MarketValue>
+      <MarketValue>3000</MarketValue>
       <ToughnessRating>50</ToughnessRating>
     </statBases>
     <relicChance>1</relicChance>
@@ -618,9 +618,9 @@
           <li>Stab</li>
         </capacities>
         <power>19</power>
-        <cooldownTime>0.75</cooldownTime>
+        <cooldownTime>0.7</cooldownTime>
         <armorPenetrationBlunt>2</armorPenetrationBlunt>
-        <armorPenetrationSharp>40</armorPenetrationSharp>
+        <armorPenetrationSharp>44.45</armorPenetrationSharp>
         <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
       </li>
       <li Class="CombatExtended.ToolCE">
@@ -628,10 +628,10 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>55</power>
-        <cooldownTime>0.77</cooldownTime>
-        <armorPenetrationBlunt>6.75</armorPenetrationBlunt>
-        <armorPenetrationSharp>45</armorPenetrationSharp>
+        <power>46</power>
+        <cooldownTime>0.7</cooldownTime>
+        <armorPenetrationBlunt>4.5</armorPenetrationBlunt>
+        <armorPenetrationSharp>37.5</armorPenetrationSharp>
         <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
       </li>
     </tools>
