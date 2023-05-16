@@ -133,7 +133,7 @@
       <WorkToMake>14000</WorkToMake>
       <Mass>3.2</Mass>
       <Bulk>16</Bulk>
-      <MeleeCounterParryBonus>0.28</MeleeCounterParryBonus>
+      <MeleeCounterParryBonus>0.5</MeleeCounterParryBonus>
     </statBases>
     <equippedAngleOffset>-25</equippedAngleOffset>
     <stuffCategories>
@@ -148,8 +148,8 @@
         </capacities>
         <power>5</power>
         <chanceFactor>0.33</chanceFactor>
-        <cooldownTime>1.8</cooldownTime>
-        <armorPenetrationBlunt>1.25</armorPenetrationBlunt>
+        <cooldownTime>2.01</cooldownTime>
+        <armorPenetrationBlunt>1.6</armorPenetrationBlunt>
         <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
       </li>
       <li Class="CombatExtended.ToolCE">
@@ -157,16 +157,16 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>36</power>
-        <cooldownTime>2.67</cooldownTime>
-        <armorPenetrationBlunt>15.75</armorPenetrationBlunt>
+        <power>38</power>
+        <cooldownTime>2.59</cooldownTime>
+        <armorPenetrationBlunt>16.384</armorPenetrationBlunt>
         <linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
       </li>
     </tools>
     <equippedStatOffsets>
       <MeleeCritChance>1.6</MeleeCritChance>
       <MeleeParryChance>0.38</MeleeParryChance>
-      <MeleeDodgeChance>0.3</MeleeDodgeChance>
+      <MeleeDodgeChance>0.4</MeleeDodgeChance>
     </equippedStatOffsets>
     <recipeMaker>
       <researchPrerequisite>LongBlades</researchPrerequisite>
@@ -209,7 +209,7 @@
       <WorkToMake>25000</WorkToMake>
       <Mass>3.2</Mass>
       <Bulk>12</Bulk>
-      <MeleeCounterParryBonus>0.59</MeleeCounterParryBonus>
+      <MeleeCounterParryBonus>0.67</MeleeCounterParryBonus>
     </statBases>
     <equippedAngleOffset>-45</equippedAngleOffset>
     <stuffCategories>
@@ -232,10 +232,10 @@
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>60</power>
+        <power>34</power>
         <cooldownTime>2.01</cooldownTime>
         <armorPenetrationBlunt>1.6</armorPenetrationBlunt>
-        <armorPenetrationSharp>0.89</armorPenetrationSharp>
+        <armorPenetrationSharp>3.2</armorPenetrationSharp>
         <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
       </li>
       <li Class="CombatExtended.ToolCE">
@@ -243,10 +243,10 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>47</power>
-        <cooldownTime>3.12</cooldownTime>
-        <armorPenetrationBlunt>3.6</armorPenetrationBlunt>
-        <armorPenetrationSharp>0.4</armorPenetrationSharp>
+        <power>53</power>
+        <cooldownTime>2.23</cooldownTime>
+        <armorPenetrationBlunt>5.184</armorPenetrationBlunt>
+        <armorPenetrationSharp>1.16</armorPenetrationSharp>
         <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
       </li>
     </tools>
@@ -257,9 +257,9 @@
       </skillRequirements>
     </recipeMaker>
     <equippedStatOffsets>
-      <MeleeCritChance>0.08</MeleeCritChance>
+      <MeleeCritChance>0.16</MeleeCritChance>
       <MeleeParryChance>0.5</MeleeParryChance>
-      <MeleeDodgeChance>0.5</MeleeDodgeChance>
+      <MeleeDodgeChance>0.53</MeleeDodgeChance>
     </equippedStatOffsets>
     <thingSetMakerTags>
       <li>RewardStandardQualitySuper</li>
@@ -296,7 +296,7 @@
       <WorkToMake>15000</WorkToMake>
       <Mass>1.8</Mass>
       <Bulk>10</Bulk>
-      <MeleeCounterParryBonus>1.08</MeleeCounterParryBonus>
+      <MeleeCounterParryBonus>1.71</MeleeCounterParryBonus>
     </statBases>
     <equippedAngleOffset>-25</equippedAngleOffset>
     <stuffCategories>
@@ -309,8 +309,8 @@
           <li>Blunt</li>
         </capacities>
         <power>6</power>
-        <chanceFactor>0.33</chanceFactor>
-        <cooldownTime>1.31</cooldownTime>
+        <chanceFactor>0.15</chanceFactor>
+        <cooldownTime>1.16</cooldownTime>
         <armorPenetrationBlunt>2.025</armorPenetrationBlunt>
         <linkedBodyPartsGroup>Shaft</linkedBodyPartsGroup>
       </li>
@@ -319,10 +319,10 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>47</power>
-        <cooldownTime>2.9</cooldownTime>
-        <armorPenetrationBlunt>8.1</armorPenetrationBlunt>
-        <armorPenetrationSharp>1.62</armorPenetrationSharp>
+        <power>33</power>
+        <cooldownTime>1.69</cooldownTime>
+        <armorPenetrationBlunt>4.356</armorPenetrationBlunt>
+        <armorPenetrationSharp>0.97</armorPenetrationSharp>
         <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
       </li>
       <li Class="CombatExtended.ToolCE">
@@ -330,10 +330,10 @@
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>40</power>
-        <cooldownTime>1.16</cooldownTime>
-        <armorPenetrationBlunt>2.025</armorPenetrationBlunt>
-        <armorPenetrationSharp>2.03</armorPenetrationSharp>
+        <power>21</power>
+        <cooldownTime>0.97</cooldownTime>
+        <armorPenetrationBlunt>2.916</armorPenetrationBlunt>
+        <armorPenetrationSharp>5.84</armorPenetrationSharp>
         <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
       </li>
     </tools>
@@ -344,9 +344,9 @@
       </skillRequirements>
     </recipeMaker>
     <equippedStatOffsets>
-      <MeleeCritChance>0.22</MeleeCritChance>
-      <MeleeParryChance>1.53</MeleeParryChance>
-      <MeleeDodgeChance>0.67</MeleeDodgeChance>
+      <MeleeCritChance>0.19</MeleeCritChance>
+      <MeleeParryChance>1.5</MeleeParryChance>
+      <MeleeDodgeChance>0.83</MeleeDodgeChance>
     </equippedStatOffsets>
     <thingSetMakerTags>
       <li>RewardStandardQualitySuper</li>
@@ -396,7 +396,7 @@
         <power>3</power>
         <chanceFactor>0.33</chanceFactor>
         <cooldownTime>1.6</cooldownTime>
-        <armorPenetrationBlunt>0.650</armorPenetrationBlunt>
+        <armorPenetrationBlunt>0.65</armorPenetrationBlunt>
         <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
       </li>
       <li Class="CombatExtended.ToolCE">
@@ -404,9 +404,9 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>15</power>
-        <cooldownTime>1.6</cooldownTime>
-        <armorPenetrationBlunt>58.5</armorPenetrationBlunt>
+        <power>17</power>
+        <cooldownTime>1.78</cooldownTime>
+        <armorPenetrationBlunt>49</armorPenetrationBlunt>
         <linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
       </li>
     </tools>
@@ -471,10 +471,10 @@
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>26</power>
-        <cooldownTime>1.35</cooldownTime>
-        <armorPenetrationBlunt>3.250</armorPenetrationBlunt>
-        <armorPenetrationSharp>7.3</armorPenetrationSharp>
+        <power>27</power>
+        <cooldownTime>1.12</cooldownTime>
+        <armorPenetrationBlunt>0.468</armorPenetrationBlunt>
+        <armorPenetrationSharp>9.2</armorPenetrationSharp>
         <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
       </li>
       <li Class="CombatExtended.ToolCE">
@@ -482,10 +482,10 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>20</power>
-        <cooldownTime>0.79</cooldownTime>
-        <armorPenetrationBlunt>9.290</armorPenetrationBlunt>
-        <armorPenetrationSharp>7.6</armorPenetrationSharp>
+        <power>21</power>
+        <cooldownTime>1.0</cooldownTime>
+        <armorPenetrationBlunt>1.053</armorPenetrationBlunt>
+        <armorPenetrationSharp>6.6</armorPenetrationSharp>
         <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
       </li>
     </tools>
@@ -522,7 +522,7 @@
       <WorkToMake>54000</WorkToMake>
       <Mass>3.5</Mass>
       <Bulk>10</Bulk>
-      <MeleeCounterParryBonus>0.26</MeleeCounterParryBonus>
+      <MeleeCounterParryBonus>0.38</MeleeCounterParryBonus>
     </statBases>
     <equippedAngleOffset>-65</equippedAngleOffset>
     <costList>
@@ -547,16 +547,16 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>36</power>
-        <cooldownTime>2.05</cooldownTime>
-        <armorPenetrationBlunt>157.5</armorPenetrationBlunt>
+        <power>41</power>
+        <cooldownTime>2.52</cooldownTime>
+        <armorPenetrationBlunt>130</armorPenetrationBlunt>
         <linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
       </li>
     </tools>
     <equippedStatOffsets>
       <MeleeCritChance>1.75</MeleeCritChance>
-      <MeleeParryChance>0.34</MeleeParryChance>
-      <MeleeDodgeChance>0.3</MeleeDodgeChance>
+      <MeleeParryChance>0.29</MeleeParryChance>
+      <MeleeDodgeChance>0.33</MeleeDodgeChance>
     </equippedStatOffsets>
     <thingSetMakerTags>
       <li>RewardStandardQualitySuper</li>
@@ -595,6 +595,7 @@
       <MarketValue>3000</MarketValue>
       <ToughnessRating>50</ToughnessRating>
     </statBases>
+    <generateCommonality>0.5</generateCommonality>
     <relicChance>1</relicChance>
     <equippedAngleOffset>-45</equippedAngleOffset>
     <weaponTags>
