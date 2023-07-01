@@ -50,7 +50,7 @@
     <graphicData>
       <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
     </graphicData>
-    <techLevel>Industrial</techLevel>
+    <techLevel>Medieval</techLevel>
     <smeltable>true</smeltable>
     <thingCategories>
       <li>WeaponsMelee</li>
@@ -124,7 +124,6 @@
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
-    <techLevel>Medieval</techLevel>
     <weaponTags>
       <li>MedievalMeleeAdvanced</li>
     </weaponTags>
@@ -200,7 +199,6 @@
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
-    <techLevel>Medieval</techLevel>
     <weaponTags>
       <li>MedievalMeleeAdvanced</li>
     </weaponTags>
@@ -287,7 +285,6 @@
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
-    <techLevel>Medieval</techLevel>
     <weaponTags>
       <li>MedievalMeleeAdvanced</li>
     </weaponTags>
