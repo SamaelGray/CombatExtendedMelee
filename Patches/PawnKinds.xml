@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
 	<Operation Class="PatchOperationAdd">
@@ -10,7 +10,7 @@
 
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/FactionDef[@Name="OutlanderFactionBase"]/pawnGroupMakers/li[kindDef="Combat" or kindDef="Settlement"]/options
-      | Defs/FactionDef[@Name="OutlanderFactionBase"]/pawnGroupMakers/li[kindDef="Trader"]/guards		</xpath>
+			| Defs/FactionDef[@Name="OutlanderFactionBase"]/pawnGroupMakers/li[kindDef="Trader"]/guards </xpath>
 		<value>
 			<CE_Mercenary_SlasherElite>3</CE_Mercenary_SlasherElite>
 		</value>
@@ -25,4 +25,3 @@
 	</Operation>
 
 </Patch>
-

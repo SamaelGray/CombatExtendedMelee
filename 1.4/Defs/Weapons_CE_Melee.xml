@@ -9,7 +9,7 @@
 			<texPath>Things/Item/Unfinished/UnfinishedWeapon</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<stuffCategories Inherit="false"/>
+		<stuffCategories Inherit="false" />
 	</ThingDef>
 
 	<ThingDef Name="BaseMeleeWeapon_CE" Abstract="True">
@@ -33,7 +33,7 @@
 		</statBases>
 		<relicChance>2</relicChance>
 		<comps>
-			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Forbiddable" />
 			<li>
 				<compClass>CompEquippable</compClass>
 			</li>
@@ -45,7 +45,7 @@
 				<descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
 				<minQualityForArtistic>Excellent</minQualityForArtistic>
 			</li>
-			<li Class="CompProperties_Styleable"/>
+			<li Class="CompProperties_Styleable" />
 		</comps>
 		<graphicData>
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
@@ -185,7 +185,7 @@
 	</ThingDef>
 
 	<!-- ==================== Zweihander ==================== -->
-  
+
 	<ThingDef ParentName="MeleeWeaponMakeable_CE">
 		<defName>CE_Melee_Zweihander</defName>
 		<label>zweihander</label>
@@ -271,7 +271,7 @@
 	</ThingDef>
 
 	<!-- ==================== Halberd ==================== -->
-  
+
 	<ThingDef ParentName="MeleeWeaponMakeable_CE">
 		<defName>CE_Melee_Halberd</defName>
 		<label>halberd</label>
