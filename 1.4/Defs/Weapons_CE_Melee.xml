@@ -377,7 +377,8 @@
 		</statBases>
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<costList>
-			<Plasteel>50</Plasteel>
+			<Steel>20</Steel>
+			<Plasteel>40</Plasteel>
 			<ComponentIndustrial>6</ComponentIndustrial>
 			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
@@ -444,7 +445,8 @@
 		</statBases>
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<costList>
-			<Plasteel>50</Plasteel>
+			<Steel>10</Steel>
+			<Plasteel>40</Plasteel>
 			<ComponentIndustrial>6</ComponentIndustrial>
 			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
@@ -516,14 +518,15 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
-			<WorkToMake>54000</WorkToMake>
+			<WorkToMake>50000</WorkToMake>
 			<Mass>3.5</Mass>
 			<Bulk>10</Bulk>
 			<MeleeCounterParryBonus>0.38</MeleeCounterParryBonus>
 		</statBases>
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<costList>
-			<Plasteel>120</Plasteel>
+			<Steel>40</Steel>
+			<Plasteel>80</Plasteel>
 			<ComponentIndustrial>8</ComponentIndustrial>
 			<ComponentSpacer>2</ComponentSpacer>
 		</costList>
