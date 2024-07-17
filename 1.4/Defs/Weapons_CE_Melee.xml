@@ -591,7 +591,7 @@
 			<MarketValue>3000</MarketValue>
 			<ToughnessRating>50</ToughnessRating>
 		</statBases>
-		<generateCommonality>0.5</generateCommonality>
+		<generateCommonality>0.25</generateCommonality>
 		<relicChance>1</relicChance>
 		<equippedAngleOffset>-45</equippedAngleOffset>
 		<weaponTags>
