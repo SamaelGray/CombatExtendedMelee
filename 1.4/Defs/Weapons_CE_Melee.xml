@@ -289,7 +289,7 @@
 		<weaponTags>
 			<li>MedievalMeleeAdvanced</li>
 		</weaponTags>
-		<costStuffCount>90</costStuffCount>
+		<costStuffCount>110</costStuffCount>
 		<statBases>
 			<WorkToMake>20000</WorkToMake>
 			<Mass>1.8</Mass>
