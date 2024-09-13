@@ -128,9 +128,9 @@
 		<weaponTags>
 			<li>MedievalMeleeAdvanced</li>
 		</weaponTags>
-		<costStuffCount>120</costStuffCount>
+		<costStuffCount>150</costStuffCount>
 		<statBases>
-			<WorkToMake>14000</WorkToMake>
+			<WorkToMake>22000</WorkToMake>
 			<Mass>3.2</Mass>
 			<Bulk>16</Bulk>
 			<MeleeCounterParryBonus>0.5</MeleeCounterParryBonus>
@@ -289,9 +289,9 @@
 		<weaponTags>
 			<li>MedievalMeleeAdvanced</li>
 		</weaponTags>
-		<costStuffCount>80</costStuffCount>
+		<costStuffCount>110</costStuffCount>
 		<statBases>
-			<WorkToMake>15000</WorkToMake>
+			<WorkToMake>20000</WorkToMake>
 			<Mass>1.8</Mass>
 			<Bulk>10</Bulk>
 			<MeleeCounterParryBonus>1.71</MeleeCounterParryBonus>
