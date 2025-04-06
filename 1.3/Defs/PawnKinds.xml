@@ -5,10 +5,7 @@
 		<weaponTags Inherit="false">
 			<li>SpacerMelee</li>
 		</weaponTags>
-		<weaponMoney>
-			<min>950</min>
-			<max>2000</max>
-		</weaponMoney>
+		<weaponMoney>950~2000</weaponMoney>
 		<initialResistanceRange>15~30</initialResistanceRange>
 		<apparelRequired>
 			<li>Apparel_ShieldBelt</li>
